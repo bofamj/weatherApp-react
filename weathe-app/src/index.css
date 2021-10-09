@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* the app*/
+
+.App{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  background: linear-gradient(to right, #fc5c7d, #6a82fb);
+  align-items: center;
+  justify-content: center;
+}
+/* the weather cart*/
+
+.mai{
+  height: 50%;
+  width: 16%; 
+  background: linear-gradient(to bottom, #2980b9, #6dd5fa, #f1f1f1); 
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 5px;
+}
